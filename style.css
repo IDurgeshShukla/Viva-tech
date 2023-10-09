@@ -1,0 +1,32 @@
+main>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow:  2px 5px 5px 2px rgb(73, 67, 67);
+    border-radius: 20px;
+    
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    padding: 10%;
+}
+input, label{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+label{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.btn{
+    margin-inline: 20px;
+    width:200px !important;
+}
+form{
+    padding:5%;
+}
